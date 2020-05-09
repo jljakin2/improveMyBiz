@@ -13,7 +13,7 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
 }
 
@@ -282,21 +282,19 @@ nav li a:hover, .dropdown:hover .dropbtn {
 
 .flex-wrap {
     align-content: space-between;
-    /* border: 1px solid blue; */
     display: flex;
     flex-wrap: wrap;
-    height: 70vh;
+    min-height: 70vh;
     justify-content: space-between;
     margin-bottom: 15px;
 }
 
 .other-services-box {
-    /* border: 1px solid red; */
     background: white;
+    width: calc(50% - 20px);
+    margin: 10px 0px;
     display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
-    width: 47%;
+    justify-content: space-around;
 }
 
 .other-services-box:hover {
@@ -305,9 +303,8 @@ nav li a:hover, .dropdown:hover .dropbtn {
 }
 
 .other-services-title {
-    /* border: 1px solid blue; */
-    padding-bottom: 20px;
-    width: 88.5%;
+    flex: 8;
+    padding: 0px 10px 20px 10px;
 }
 
 .other-services-title h4 {
@@ -324,21 +321,15 @@ nav li a:hover, .dropdown:hover .dropbtn {
 }
 
 .other-services-icon {
-    /* border: 1px solid blue; */
     color: #3498db;
+    flex: 1;
     margin-top: 15px;
     padding: 0px 15px;
-    /* margin-right: 5px; */
+    text-align: center;
 }
 
 /* TESTIMONIALS */
 .testimonials {
     background: #f7fbfe;
     padding-bottom: 10px;
-}
-
-@media screen and (max-width: 1760px) {
-    .flex-wrap {
-        height: 100vh;
-    }
 }
