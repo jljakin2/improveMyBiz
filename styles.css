@@ -1,5 +1,5 @@
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -32,7 +32,7 @@ nav {
 
 nav h4{
     align-self: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: x-large;
     padding: 0 15px;
     text-transform: uppercase;
@@ -54,7 +54,7 @@ nav ul{
 
 nav li {
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     margin-right: 20px;
     text-decoration: none;
 }
@@ -65,8 +65,8 @@ nav li a {
 }
 
 .dropdown .dropbtn {
-    font-family: 'Oswald', sans-serif;
-    font-size: large;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;  
     border: none;
     outline: none;
     color: black;
@@ -78,7 +78,7 @@ nav li a:hover, .dropdown:hover .dropbtn {
 
 .dropdown-content {
     display: none;
-    font-size: 20px;
+    font-size: 18px;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -120,7 +120,7 @@ nav li a:hover, .dropdown:hover .dropbtn {
 }
 
 .title-underline {
-    border-bottom: 4px solid #3498db;;
+    border-bottom: 4px solid #3498db;
 }
 
 .hero-text h4 {
@@ -148,6 +148,10 @@ nav li a:hover, .dropdown:hover .dropbtn {
 }
 
 /* SERVICES */
+.services {
+    padding-bottom: 30px;
+}
+
 /* org dev */
 .section-title {
     padding: 20px 0px;
@@ -169,7 +173,8 @@ nav li a:hover, .dropdown:hover .dropbtn {
     /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
-    paddi
+    margin-bottom: 30px;
+    padding: 0px 20px 10px 20px;
 }
 
 .org-dev:hover {
@@ -223,6 +228,7 @@ nav li a:hover, .dropdown:hover .dropbtn {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
+    padding-bottom: 15px;
     width: 100%;
 }
 
@@ -278,7 +284,7 @@ nav li a:hover, .dropdown:hover .dropbtn {
 
 .other-services {
     background: #f7fbfe;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .flex-wrap {
@@ -334,6 +340,10 @@ nav li a:hover, .dropdown:hover .dropbtn {
 }
 
 /* TEAM */
+.team {
+    padding-bottom: 20px;
+}
+
 .team-wrap {
     display: flex;
     justify-content: space-between;
@@ -391,8 +401,8 @@ nav li a:hover, .dropdown:hover .dropbtn {
     text-decoration: none;
 }
 
-/* TESTIMONIALS */
+/* TESTIMONIALS
 .testimonials {
     background: #f7fbfe;
     padding-bottom: 10px;
-}
+} */
